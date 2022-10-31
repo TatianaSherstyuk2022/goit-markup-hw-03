@@ -1,0 +1,213 @@
+
+/* logo #000000 #2196F3
+#2196F3 hover i focus
+#212121
+#757575
+hero #FFFFFF */
+
+:root {
+    --primary-text-color: #212121;
+    --title-text-color: #757575;
+    --accent-color: #2196F3;
+    --primary-white-color: #FFFFFF;
+    --primary-color-logo: #000000;
+    --background-colo-hero-batton: #188CE8;
+    }
+    
+    body {
+        background-color: var(--primary-white-color);
+        color: var(--primary-text-color);
+        font-family: Roboto, sans-serif;
+        font-size: 14px;
+        letter-spacing: 0.03em;
+    }
+    
+    li {
+        list-style-type: none;
+    }
+    
+    .logo {
+        font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        color: var(--primary-color-logo);
+        text-decoration: none;
+    }
+    
+    .logo-accent {
+        color: var(--accent-color);
+    }
+     
+    /* Site nav */
+    .site-nav .link {
+        color: var(--primary-text-color);
+        font-weight: 500;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        text-decoration: none;
+    
+    }
+    
+    .site-nav .link:hover,
+    .site-nav .link:focus {
+        color: var(--accent-color);
+    }
+    .site-nav .link.current {
+        color: var(--accent-color);
+    }
+    
+    .contact .link {
+        color: var(--title-text-color);
+        font-weight: 500;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        text-decoration: none;
+    }
+    
+    .contact .link:hover,
+    .contact .link:focus {
+        color: var(--accent-color);
+    }
+    
+  
+    
+    /* HERO*/
+    
+    .hero-title {
+        color: var(--primary-white-color);
+        background-color: var(--title-text-color);
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+    }
+    
+    .hero-button {
+        color: var(--primary-white-color);
+        background-color: var(--accent-color);
+        font-family: inherit;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.06em;
+        cursor: pointer;
+    
+    }
+
+    .hero-button:hover,
+    .hero-button:focus {
+        background-color: var(--background-colo-hero-batton);
+    }
+    
+    /* benefits */
+    
+    .benefits-list {
+        color: var(--primary-text-color);
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 1.14;
+    }
+    
+    .text {
+        color: var(--title-text-color);
+        line-height: 1.71;
+    }
+    
+    /* Work end Comanda */
+    
+    .work,
+    .comanda {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    }
+    
+    .comanda-element {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    }
+    
+    .professional {
+        color: var(--title-text-color);
+        font-size: 16px;
+        line-height: 1.19;
+    }
+    
+    /* Footer */
+    .logo-footer {
+        font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        color: var(--primary-white-color);
+        text-decoration: none;
+        background-color: var(--title-text-color);
+    }
+
+
+    .contact .linkWhite {
+        color: var(--primary-white-color);
+        background-color: var(--title-text-color);
+        text-decoration: none;
+        font-style: normal;
+        line-height: 1.71;
+    }
+    
+    .contact .linkWhite:hover,
+    .contact .linkWhite:focus {
+        color: var(--accent-color);
+    }
+
+    .link-footer {
+        color: rgba(255, 255, 255, 0.6);
+        background-color: var(--title-text-color);
+        font-size: 14px;
+        line-height: 1.71;
+        font-style: normal;
+    }
+
+
+
+       /* PORTFOLIO */
+.title {
+    color:  var(--primary-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+} 
+
+    
+.text {
+    color: var(--title-text-color);
+    font-size: 16px;
+    line-height: 1.88;
+    text-decoration: none;
+}
+
+.filtr-button {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.filtr-button:hover,
+.filtr-button:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+
+.card {
+    text-decoration: none;
+}
