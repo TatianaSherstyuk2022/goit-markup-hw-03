@@ -9,32 +9,36 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html" class="logo"
-          ><span class="logo-accent">Web</span>Studio</a
-        >
-        <ul class="site-nav">
-          <li><a href="./index.html" class="link">Студія</a></li>
-          <li><a href="" class="link current">Портфоліо</a></li>
-          <li><a href="" class="link">Контакти</a></li>
-        </ul>
-      </nav>
-      <ul class="contact">
-        <li>
-          <a href="mailto:info@devstudio.com" class="link"
-            >info@devstudio.com</a
+    <header class="page-header">
+      <div class="container">
+        <nav>
+          <a href="./index.html" class="logo"
+            ><span class="logo-accent">Web</span>Studio</a
           >
-        </li>
-        <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
-      </ul>
+          <ul class="site-nav">
+            <li><a href="./index.html" class="link">Студія</a></li>
+            <li><a href="" class="link current">Портфоліо</a></li>
+            <li><a href="" class="link">Контакти</a></li>
+          </ul>
+        </nav>
+        <ul class="contact">
+          <li>
+            <a href="mailto:info@devstudio.com" class="link"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+        </ul>
+      </div>
     </header>
     <main>
-      <section>
-        <h1>Портфоліо</h1>
+      <section class="section">
+        <div class="container">
+          <h1>Портфоліо</h1>
         <ul>
           <li><button type="button" class="filtr-button">Усі</button></li>
           <li><button type="button" class="filtr-button">Веб-сайти</button></li>
@@ -51,8 +55,10 @@
                 width="370"
                 height="294"
               />
-              <h2 class="title">Технокряк</h2>
-              <p class="text">Веб-сайт</p>
+              <div class="content">
+                <h2 class="title">Технокряк</h2>
+                <p class="text">Веб-сайт</p>
+              </div>
             </a>
           </li>
           <li>
@@ -152,14 +158,15 @@
             </a>
           </li>
         </ul>
+        </div>
       </section>
     </main>
-    <footer>
+    <footer class="container">
       <a href="./index.html" class="logo-footer"
         ><span class="logo-accent">Web</span>Studio</a
       >
       <address>
-        <ul class="contact">
+        <ul class="contact footer">
           <li>
             <a href="" class="linkWhite">м. Київ, пр-т Лесі Українки, 26</a>
           </li>
