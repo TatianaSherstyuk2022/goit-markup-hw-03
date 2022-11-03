@@ -12,6 +12,8 @@ hero #FFFFFF */
   --primary-color-logo: #000000;
   --background-colo-hero-batton: #188ce8;
   --background-colo-header: #2f303a;
+  --border-portfolio: #EEEEEE;
+
 }
 
 body {
