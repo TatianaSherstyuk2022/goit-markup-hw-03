@@ -23,6 +23,7 @@ hero #FFFFFF */
         letter-spacing: 0.03em;
     }
     
+    
     li {
         list-style-type: none;
         padding-bottom: 0;
@@ -38,22 +39,38 @@ hero #FFFFFF */
         margin-bottom: 0;
     }
     
-
     .container {
         margin-left: auto;
         margin-right: auto;
         width: 1200px;
         padding-left: 20px;
         padding-right: 20px;
-        outline: 2px solid tomato;
+        
     }
+    
+
+    
+    .main-nav {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .nav-main {
+        display: flex;
+        align-items: center;
+        }
+
 
     .section {
         padding-top: 94px;
         padding-bottom: 94px;
+        outline: 2px solid tomato;
     }
 
     .logo {
+        margin-right: 93px;
+
         font-family: 'Raleway';
         font-weight: 700;
         font-size: 26px;
@@ -67,7 +84,30 @@ hero #FFFFFF */
     }
      
     /* Site nav */
+    .contact,
+    .site-nav {
+        display: flex;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .contact {
+        margin-left: auto;
+    }
+    .site-nav .item + .item,
+    .contact .item + .item  {
+        margin-left: 50px;
+
+
+    /* .site-nav .item:not(:last-child) {
+        margin-right: 50px; */
+    }
+
     .site-nav .link {
+        display: block;
+        padding-top: 32px;
+        padding-bottom: 32px;
+
         color: var(--primary-text-color);
         font-weight: 500;
         line-height: 1.14;
@@ -92,11 +132,6 @@ hero #FFFFFF */
         text-decoration: none;
     }
     
-    .contact,
-    .site-nav {
-        margin-top: 0;
-        margin-bottom: 0;
-    }
     .contact .link:hover,
     .contact .link:focus {
         color: var(--accent-color);
@@ -151,7 +186,13 @@ hero #FFFFFF */
     }
     
     /* benefits */
-    
+    .benefits {
+        display: flex;
+    }
+   
+    .benefits .benefit + .benefit {
+        margin-left: 30px;
+    }
     .benefits-list {
         color: var(--primary-text-color);
         font-size: 14px;
@@ -169,7 +210,13 @@ hero #FFFFFF */
         display: inline-block;
     }
     /* Work end Comanda */
-    
+    .container-prof {
+        display: flex;
+    }
+    .container-prof .foto + .foto {
+        margin-left: 30px;
+    }
+
     .work,
     .comanda {
     margin-bottom: 50px;
@@ -178,6 +225,17 @@ hero #FFFFFF */
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
+    }
+    .work-list {
+        display: flex;
+    }
+
+    .work-list .image + .image {
+        margin-left: 30px;
+    }
+
+    .comanda-teams {
+        display: flex;
     }
     
     .comanda-element {
@@ -250,7 +308,7 @@ hero #FFFFFF */
 } 
 
     
-.text {
+.text-portf {
     color: var(--title-text-color);
     font-size: 16px;
     line-height: 1.88;
@@ -293,6 +351,7 @@ hero #FFFFFF */
     border-top: none;
 }
 
-.card.text {
+.card.text-portf {
     margin-top: 4px;
 }
+
